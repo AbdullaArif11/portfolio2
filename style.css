@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   font-family: 'Lato', sans-serif;
   font-family: 'Open Sans', sans-serif;
@@ -6,6 +10,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 100px;
 }
 nav>ul{
   display: flex;
@@ -35,4 +40,29 @@ nav a{
   font-size: 20px;
   font-weight: 700;
   padding: 15px 35px;
+}
+/* hedar style */
+.header{
+  background-color: #FFF8F3;
+  background-image: url('images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner{
+  padding: 50px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.banner-content{
+  max-width: 700px;
+}
+.profile-pic{
+
+}
+.banner-text{
+  color: #474747;
+  font-size: small;
+  margin: 20px 0px;
 }
