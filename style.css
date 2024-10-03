@@ -66,3 +66,18 @@ nav a{
   font-size: small;
   margin: 20px 0px;
 }
+
+/* main section */
+.section-title{
+  font-weight: 800;
+  text-align: center;
+  font-size: x-large;
+}
+
+.about{
+  max-width: 1140px;
+  max-height: 550px;
+  padding: 100px;
+  background-color: #FFF8F3;
+  margin: 120px auto;
+}
