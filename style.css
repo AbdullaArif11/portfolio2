@@ -11,6 +11,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   margin: 0 100px;
+  padding-top: 20px;
 }
 nav>ul{
   display: flex;
@@ -106,7 +107,7 @@ main{
   font-size: smaller;
 }
 .ab-container-h{
-  font-size: medium;
+  font-size: smaller;
 }
 .skils-containers{
   margin: 150px 0;
@@ -171,4 +172,37 @@ main{
 .footer{
   background-color: #FFF8F3;
   padding: 100px 0;
+}
+.f-container{
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.f-h{
+  font-size: large;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.p-h{
+  font-size: smaller;
+  color: #474747;
+  max-width: 560px;
+}
+.f-form{
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  gap: 20px;
+}
+.f-input{
+  height: 65px;
+  background-color: white;
+  padding: 10px 30px;
+  color: #474747;
+  border-radius: 5px;
+  border: 0;
+}
+.f-text{
+  height: 180px;
 }
