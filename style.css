@@ -129,3 +129,41 @@ main{
   font-size: x-small;
   color: #757575;
 }
+/* resume */
+.resume-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.resume{
+  max-width: 511px;
+}
+.resume-h{
+  font-size: large;
+}
+.summary{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  max-height: 180px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #757575;
+}
+.degree{
+  font-weight: bolder;
+  font-size: large;
+  margin-bottom: 10px;
+}
+.institute{
+  color: #474747;
+  margin-bottom: 20px;
+}
+.s-detail{
+  font-size: x-small;
+  color: #757575;
+}
+.cv-button{
+  margin: 0 40%;
+  margin-bottom: 40px;
+  height: 70px;
+}
