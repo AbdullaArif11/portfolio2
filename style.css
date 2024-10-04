@@ -44,9 +44,9 @@ nav a{
 /* hedar style */
 .header{
   background-color: #FFF8F3;
-  background-image: url('images/header_bg.png');
+  background-image: url('images/header_bg.png') , url('images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 .banner{
   padding: 50px 30px 0px 150px;
@@ -58,26 +58,53 @@ nav a{
 .banner-content{
   max-width: 700px;
 }
-.profile-pic{
-
+.banner-title{
+  font: bolder;
+  font-size: xx-large;
+  font-weight: 800;
 }
 .banner-text{
   color: #474747;
-  font-size: small;
+  font-size: x-small;
   margin: 20px 0px;
 }
 
 /* main section */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .section-title{
   font-weight: 800;
+  font: bolder;
   text-align: center;
   font-size: x-large;
 }
-
 .about{
-  max-width: 1140px;
   max-height: 550px;
   padding: 100px;
   background-color: #FFF8F3;
   margin: 120px auto;
+}
+.abut-section-detail{
+  color: #757575;
+  font-size: smaller;
+  text-align: center;
+  margin: 30px 0;
+}
+.ab-containers{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ab-cintainer{
+  text-align: center;
+}
+.ab-container-p{
+  color: #757575;
+  font-size: smaller;
+}
+.ab-container-h{
+  font-size: medium;
 }
