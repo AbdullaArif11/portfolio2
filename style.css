@@ -206,3 +206,9 @@ main{
 .f-text{
   height: 180px;
 }
+.icon{
+  display: flex;
+  gap: 15px;
+  height: 50px;
+  margin-top: 10px;
+}
